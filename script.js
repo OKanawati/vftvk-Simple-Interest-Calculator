@@ -13,6 +13,7 @@ function compute()
     // Gives an alert if user inputs 0 or a negative number
     if (principal <= 0) {
         alert("Enter a positive number");
+        document.getElementById("principal").focus();
     }
     // Displays the results after user submits form
     else {
